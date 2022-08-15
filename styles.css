@@ -1,0 +1,75 @@
+#title {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    opacity: 75%;
+}
+
+.grid-container {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 350px;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    overflow: auto;
+    align-items: center;
+    background-color: black;
+    opacity: 85%;
+}
+
+h2 {
+    color: gold;
+}
+
+#webpage {
+    background-image: url(TK20_WEB_FAMILY_Fuel_EX_Marquee_01.webp);
+}
+
+#button {
+    border-radius: 15px;
+    background-color: black;
+    color: goldenrod;
+}
+
+#button:hover {
+    background-color: white;
+}
+
+#learn  {
+    color: black;
+}
+
+#copyright {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+#email {
+    color: white;
+}
+
+#author {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+#copy   {
+    text-align: right;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
